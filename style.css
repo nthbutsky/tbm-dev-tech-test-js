@@ -1,0 +1,43 @@
+.container {
+  width: 300px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  background-image: url(./assets/bg01.jpg);
+  background-size: cover;
+}
+
+.coke-can,
+.text-literally,
+.text-limited,
+.text-now,
+.text-in,
+.text-store,
+.logo,
+.sparkle-1,
+.sparkle-2,
+.sparkle-3 {
+  position: absolute;
+  width: 100%;
+}
+
+.sparkle-1 {
+  top: 35%;
+  left: -40%;
+}
+
+.sparkle-2 {
+  left: 35%;
+}
+
+.sparkle-3 {
+  top: -40%;
+}
+
+.exit {
+  cursor: pointer;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
